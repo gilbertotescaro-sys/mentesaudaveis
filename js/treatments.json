@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Alcoólicos Anônimos (AA)",
+    "description": "Uma irmandade mundial de homens e mulheres que se ajudam mutuamente a permanecerem sóbrios. Eles oferecem um programa de 12 passos, reuniões e apoio.",
+    "type": "Grupo de apoio"
+  },
+  {
+    "name": "Narcóticos Anônimos (NA)",
+    "description": "Uma organização sem fins lucrativos para homens e mulheres para quem as drogas se tornaram um problema maior. O programa é de total abstinência de todas as drogas.",
+    "type": "Grupo de apoio"
+  },
+  {
+    "name": "Terapia Cognitivo-Comportamental (TCC)",
+    "description": "Uma forma de psicoterapia que ajuda as pessoas a identificar e mudar padrões de pensamento e comportamento destrutivos.",
+    "type": "Terapia"
+  },
+  {
+    "name": "Desintoxicação Médica",
+    "description": "Supervisão médica do processo de abstinência para garantir a segurança e o conforto do indivíduo.",
+    "type": "Tratamento médico"
+  },
+  {
+    "name": "Reabilitação Residencial",
+    "description": "Um programa de tratamento intensivo e estruturado, onde o indivíduo vive em uma instalação por um período de tempo.",
+    "type": "Tratamento intensivo"
+  }
+]

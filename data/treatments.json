@@ -1,0 +1,241 @@
+{
+  "treatments": [
+    {
+      "id": 1,
+      "name": "Triagem e Intervenção Breve",
+      "category": "Avaliação Inicial",
+      "description": "Avaliação rápida do uso de substâncias, orientação e encaminhamento para serviços adequados.",
+      "duration": "1-2 sessões",
+      "availability": "Atenção Primária, CAPS-AD",
+      "cost": "Gratuito (SUS)"
+    },
+    {
+      "id": 2,
+      "name": "Tratamento Ambulatorial",
+      "category": "Acompanhamento Contínuo",
+      "description": "Consultas regulares com profissionais de saúde, terapia individual e em grupo, monitoramento de abstinência.",
+      "duration": "Longo prazo (meses a anos)",
+      "availability": "CAPS-AD, Clínicas particulares",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 3,
+      "name": "Desintoxicação (Detox)",
+      "category": "Internação Breve",
+      "description": "Processo médico supervisionado para gerenciar sintomas de abstinência em ambiente hospitalar ou clínica especializada.",
+      "duration": "3-14 dias (típico)",
+      "availability": "Hospitais, Clínicas especializadas",
+      "cost": "Convênio ou particular"
+    },
+    {
+      "id": 4,
+      "name": "Programa Residencial de Reabilitação",
+      "category": "Internação Prolongada",
+      "description": "Internação em ambiente terapêutico com foco em tratamento intensivo, reabilitação psicossocial e reinserção social.",
+      "duration": "30-90 dias ou mais",
+      "availability": "Comunidades Terapêuticas, Clínicas",
+      "cost": "Gratuito (algumas ONGs) ou particular"
+    },
+    {
+      "id": 5,
+      "name": "Terapia Cognitivo-Comportamental (TCC)",
+      "category": "Psicoterapia Estruturada",
+      "description": "Abordagem focada em mudança de padrões de pensamento e comportamento relacionados ao uso de substâncias.",
+      "duration": "12-20 sessões típicas",
+      "availability": "CAPS-AD, Clínicas de psicologia",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 6,
+      "name": "Entrevista Motivacional",
+      "category": "Psicoterapia Breve",
+      "description": "Técnica que trabalha com ambivalência e aumenta motivação para mudança de comportamento.",
+      "duration": "4-8 sessões",
+      "availability": "CAPS-AD, Profissionais especializados",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 7,
+      "name": "Terapia de Prevenção de Recaídas",
+      "category": "Psicoterapia Especializada",
+      "description": "Preparação para identificar gatilhos e desenvolver estratégias para evitar retorno ao uso.",
+      "duration": "8-12 sessões",
+      "availability": "CAPS-AD, Profissionais especializados",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 8,
+      "name": "Terapia Familiar",
+      "category": "Abordagem Sistêmica",
+      "description": "Trabalho com dinâmicas familiares, comunicação e suporte para codependentes.",
+      "duration": "Longo prazo (6+ meses)",
+      "availability": "CAPS-AD, Terapeutas familiares",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 9,
+      "name": "Tratamento Farmacológico - Álcool",
+      "category": "Medicação",
+      "description": "Uso de naltrexona, acamprosato ou dissulfiram para reduzir desejo de beber e manter abstinência.",
+      "duration": "Contínuo (meses a anos)",
+      "availability": "Prescrição médica, CAPS-AD",
+      "cost": "SUS e particular"
+    },
+    {
+      "id": 10,
+      "name": "Tratamento Farmacológico - Opioides",
+      "category": "Medicação",
+      "description": "Terapia agonista (metadona, buprenorfina) para redução de abstinência e manutenção.",
+      "duration": "Longo prazo",
+      "availability": "CAPS-AD, Serviços especializados",
+      "cost": "SUS (limitado) e particular"
+    },
+    {
+      "id": 11,
+      "name": "Grupos de Apoio (AA/NA)",
+      "category": "Suporte Comunitário",
+      "description": "Encontros entre pessoas em recuperação, baseados em 12 passos, gratuitos e com foco em manutenção.",
+      "duration": "Indefinido (vida toda)",
+      "availability": "Comunidades, Igrejas, Centros comunitários",
+      "cost": "Gratuito"
+    },
+    {
+      "id": 12,
+      "name": "Suporte para Familiares - Al-Anon",
+      "category": "Suporte Familiar",
+      "description": "Grupos de apoio específicos para familiares e codependentes, com estratégias de coping.",
+      "duration": "Indefinido",
+      "availability": "Comunidades locais",
+      "cost": "Gratuito"
+    },
+    {
+      "id": 13,
+      "name": "Psicoterapia Individual para Familiares",
+      "category": "Suporte Familiar",
+      "description": "Acompanhamento psicológico para familiares em lidar com codependência e estabelecer limites saudáveis.",
+      "duration": "12-20+ sessões",
+      "availability": "CAPS-AD, Clínicas de psicologia",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 14,
+      "name": "Programa de Redução de Danos",
+      "category": "Prevenção e Minimização de Risco",
+      "description": "Estratégias práticas para minimizar danos do uso (distribuição de seringas limpas, testagem, informação).",
+      "duration": "Contínuo",
+      "availability": "ONGs, Serviços especializados",
+      "cost": "Gratuito"
+    },
+    {
+      "id": 15,
+      "name": "Atendimento de Emergência (SAMU/Hospital)",
+      "category": "Crise Aguda",
+      "description": "Suporte imediato para overdose, intoxicação grave ou crise comportamental.",
+      "duration": "Imediato",
+      "availability": "Hospitais, SAMU 192",
+      "cost": "Gratuito (SUS)"
+    },
+    {
+      "id": 16,
+      "name": "Psicoeducação e Oficinas Grupais",
+      "category": "Acompanhamento Contínuo",
+      "description": "Oficinas temáticas sobre fatores de risco, habilidades sociais, gestão de emoções e reconstrução de vida.",
+      "duration": "8-16 semanas",
+      "availability": "CAPS-AD, Centros comunitários",
+      "cost": "Gratuito (SUS)"
+    },
+    {
+      "id": 17,
+      "name": "Programa de Reinserção Social e Laboral",
+      "category": "Reabilitação",
+      "description": "Apoio para retorno ao trabalho, capacitação profissional e reconstrução de vínculos sociais.",
+      "duration": "3-6 meses",
+      "availability": "CAPS-AD, Organizações sociais",
+      "cost": "Gratuito"
+    },
+    {
+      "id": 18,
+      "name": "Terapia Ocupacional",
+      "category": "Reabilitação",
+      "description": "Atividades para restaurar habilidades funcionais e criar rotinas saudáveis.",
+      "duration": "Longo prazo",
+      "availability": "CAPS-AD, Clínicas",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 19,
+      "name": "Aconselhamento Nutricional",
+      "category": "Cuidados Holísticos",
+      "description": "Orientação sobre nutrição para recuperação física e mental durante o tratamento.",
+      "duration": "4-8 sessões",
+      "availability": "CAPS-AD, Nutricionistas",
+      "cost": "Gratuito (SUS) ou particular"
+    },
+    {
+      "id": 20,
+      "name": "Atendimento de Pronto Atendimento Psiquiátrico",
+      "category": "Crise Aguda",
+      "description": "Atendimento rápido em situações de crise comportamental, intoxicação ou abstinência grave.",
+      "duration": "Imediato",
+      "availability": "Pronto-socorros, CAPS 24h",
+      "cost": "Gratuito (SUS)"
+    }
+  ],
+  "localServices": {
+    "saopaulo": {
+      "state": "São Paulo",
+      "city": "São Paulo",
+      "contacts": [
+        {
+          "name": "CAPS-AD São Paulo",
+          "type": "Centro Especializado",
+          "address": "Várias unidades na cidade",
+          "phone": "(11) 3222-8000",
+          "website": "https://www.prefeitura.sp.gov.br"
+        },
+        {
+          "name": "Hospital do Servidor Público Municipal",
+          "type": "Internação",
+          "address": "Rua Pedro de Toledo, 1800 - Vila Mariana",
+          "phone": "(11) 3345-3000",
+          "website": "https://www.hspm.org.br"
+        },
+        {
+          "name": "Alcoólicos Anônimos - SP",
+          "type": "Grupos de Apoio",
+          "address": "Várias reuniões pela cidade",
+          "phone": "(11) 3661-0233",
+          "website": "https://www.aa.org.br"
+        },
+        {
+          "name": "CVV (Centro de Valorização da Vida)",
+          "type": "Apoio Emocional",
+          "address": "São Paulo",
+          "phone": "188 (24h)",
+          "website": "https://www.cvv.org.br"
+        }
+      ]
+    },
+    "emergency": {
+      "state": "Brasil",
+      "type": "Emergências Nacionais",
+      "contacts": [
+        {
+          "name": "SAMU",
+          "phone": "192",
+          "description": "Ambulância e atendimento de emergência médica"
+        },
+        {
+          "name": "CVV - Centro de Valorização da Vida",
+          "phone": "188",
+          "description": "Prevenção de suicídio (disponível 24h)"
+        },
+        {
+          "name": "Delegacia de Polícia",
+          "phone": "190",
+          "description": "Para situações de violência ou abuso"
+        }
+      ]
+    }
+  }
+}
